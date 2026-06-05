@@ -23,10 +23,10 @@ If you're tempted to add any of the above to `index.html`, stop. It goes in the 
 
 ## Deploy (GitHub Pages)
 
-1. Create a **public** repo named `denker-airbnb` under the personal GitHub account.
+1. Create a **public** repo named `cervanteswalkerbnb` under the personal GitHub account (`randosanders`).
 2. Push this folder to it.
 3. Repo → Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/ (root)`.
-4. The site goes live at `https://<username>.github.io/denker-airbnb/` within a minute or two.
+4. The site goes live at `https://randosanders.github.io/cervanteswalkerbnb/` within a minute or two.
 
 ## QR code
 
@@ -34,7 +34,7 @@ If you're tempted to add any of the above to `index.html`, stop. It goes in the 
 
 ```
 python3 -m pip install --user "qrcode[pil]"
-python3 -c "import qrcode; qrcode.make('https://<username>.github.io/denker-airbnb/').save('assets/guest-qr.png')"
+python3 -c "import qrcode; qrcode.make('https://randosanders.github.io/cervanteswalkerbnb/').save('assets/guest-qr.png')"
 ```
 
 Print it on the welcome card and/or post it on a wall inside the home.
