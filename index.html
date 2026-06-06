@@ -54,12 +54,16 @@
     border-left:4px solid var(--warn); background:#fdf3f1; color:#5a241c;
     padding:10px 14px; border-radius:0 8px 8px 0; margin:0 0 14px; font-size:.92rem;
   }
+  .review{text-align:center; background:var(--accent); color:#fff; border-radius:14px; padding:20px 18px; margin:4px 0 16px}
+  .review .stars{font-size:1.25rem; letter-spacing:.3em; margin-bottom:5px}
+  .review .big{font-size:1.12rem; font-weight:700; margin:0 0 5px}
+  .review .sub{font-size:.92rem; opacity:.92; margin:0}
   .grid{display:grid; gap:6px}
   .muted{color:var(--muted); font-size:.85rem}
   .appliance{border-bottom:1px solid var(--line); padding:10px 0}
   .appliance:last-child{border-bottom:none}
   .appliance>b:first-child{display:block; margin-bottom:2px}
-  footer{text-align:center; color:var(--muted); font-size:.8rem; padding:20px}
+  footer{text-align:center; color:var(--accent); font-style:italic; font-weight:600; font-size:1.1rem; padding:26px 20px; border-top:2px solid var(--accent); max-width:720px; margin:0 auto}
   a{color:var(--accent)}
   @media (min-width:600px){ header.hero h1{font-size:2rem} }
 </style>
@@ -98,14 +102,18 @@
           <li>Make sure the backyard gate and all doors are locked</li>
         </ul>
       </li>
-      <li><strong>Leave us a review!</strong> We hope you enjoyed your stay — we'd love to hear from you.</li>
     </ul>
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p class="big">Enjoyed your stay? Please leave us a review.</p>
+      <p class="sub">It means the world to a two-person host team. Thank you!</p>
+    </div>
   </section>
 
   <section id="trash">
     <h2><span class="emoji">🗑️</span>Trash &amp; Recycling</h2>
     <ul>
-      <li>There's a small trash can in <b>each bathroom</b> and a <b>split can in the kitchen</b> (garbage on one side, recycling on the other).</li>
+      <li>There's a small trash can in <b>each bathroom</b> and a <b>split can in the kitchen</b> (recycling on the left, garbage on the right).</li>
       <li>To empty: out the <b>back door, turn right</b> — the city bins are there.</li>
       <li><b>Black = trash</b> · <b>Blue = recycling</b> · <b>Green = green waste</b> (yard trimmings only — you won't need this one).</li>
     </ul>
@@ -245,7 +253,7 @@
       <li>Harbor-UCLA Medical Center — 1000 W Carson St, Torrance (~11 mi, Level 1 trauma)</li>
       <li>Kaiser West LA — 6041 Cadillac Ave (~14 mi, ER + urgent care)</li>
     </ul>
-    <p class="muted">A full printed safety sheet and home escape diagram are posted inside the home.</p>
+    <p class="muted">A laminated home escape diagram is posted on the wall inside the home, and the full safety details are in the printed guest binder.</p>
   </section>
 
 </main>
